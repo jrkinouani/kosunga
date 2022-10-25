@@ -7,6 +7,12 @@
   flex-grow: 0;
 }
 
-.navbar-lewagon .navbar-brand img {
-  width: 40px;
+.navbar-lewagon .navbar-brand h4 {
+  font-size: 24px;
+  font-weight: bold;
+}
+a.nav-link {
+  font-size: 14px;
+  font-weight: bold;
+  color: black;
 }
