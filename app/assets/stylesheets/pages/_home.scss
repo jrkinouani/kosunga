@@ -1,20 +1,21 @@
-.banner {
-  background-size: cover;
-  background-position: center;
-  padding: 150px 0;
+.row.justify-content-center
+{
+  text-align: center;
 }
-
-.banner h1 {
-  margin: 0;
-  color: white;
-  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
-  font-size: 32px;
-  font-weight: bold;
+.fas, .fa-solid {
+  font-weight: 900;
+  font-size: 100px;
 }
-
-.banner p {
-  font-size: 20px;
-  color: white;
-  opacity: .7;
-  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+p.explain
+{
+  text-align: center;
+  transition: all 200ms ease;
+  margin-bottom: 15px;
+  color: #404040;
+  overflow: hidden;
+  font-weight: 400;
+  font-size: 15px;
+  font-size: .9375rem;
+  padding-left: 30px;
+  padding-right: 30px;
 }
