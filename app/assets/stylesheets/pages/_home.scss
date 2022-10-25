@@ -1,1 +1,21 @@
-// Specific CSS for your home-page
+.row.justify-content-center
+{
+  text-align: center;
+}
+.fas, .fa-solid {
+  font-weight: 900;
+  font-size: 100px;
+}
+p.explain
+{
+  text-align: center;
+  transition: all 200ms ease;
+  margin-bottom: 15px;
+  color: #404040;
+  overflow: hidden;
+  font-weight: 400;
+  font-size: 15px;
+  font-size: .9375rem;
+  padding-left: 30px;
+  padding-right: 30px;
+}
