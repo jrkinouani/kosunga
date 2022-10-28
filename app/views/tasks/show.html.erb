@@ -5,7 +5,7 @@
         <h2><%= @task.title%>
     </div>
     <div class="card-trip-infos">
-        <h2><%= @task.completed_at %>
+        <h2><%= l(@task.completed_at , format: "%B %Y")%>
     </div>
     <div class="card-trip-infos">
         <h2><%= @task.support_one %>
