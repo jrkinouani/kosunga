@@ -2,7 +2,7 @@ class TasksController < ApplicationController
 	before_action :set_task, only: %i[edit show destroy update]
 
 	def new
-		@task =  Task.new
+		@task = Task.new
 	end
 
 	def create
@@ -43,7 +43,7 @@ class TasksController < ApplicationController
 	end
 
 	def params_task
-		params.require(:task).permit(:title, :duration, :completed, :support_one, :support_two)
+		params.require(:task).permit(:title, :completed_at, :completed, :support_one, :support_two)
 	end
 
 end
