@@ -1,0 +1,7 @@
+<%= simple_form_for @task do |f|%>
+  <%= f.input :title,label: 'Nom', placeholder: "Title" %>
+  <%= f.input :completed_at, :as => :datetime, placeholder: "Title" %>
+  <%= f.input :support_one, placeholder:'My support number one john@doe.com'%>
+  <%= f.input :support_two, placeholder:'My support number two justin@doe.com'%>
+  <%= f.submit "Valider", class:"btn btn-primary"%>
+<% end %>
